@@ -5,7 +5,7 @@
 
 FROM openjdk:8-jdk-alpine
 
-MAINTAINER phuctri1510@gmail.com
+MAINTAINER Denis Vazhenin <denis.vazhenin@me.com>
 
 # working directory for gatling
 WORKDIR /opt
