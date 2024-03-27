@@ -11,7 +11,7 @@ MAINTAINER Denis Vazhenin <denis.vazhenin@me.com>
 WORKDIR /opt
 
 # gating version
-ENV GATLING_VERSION 3.2.1
+ENV GATLING_VERSION 3.9.5
 
 # create directory for gatling install
 RUN mkdir -p gatling
