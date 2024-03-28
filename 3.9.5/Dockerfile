@@ -3,7 +3,7 @@
 # Documentation: https://gatling.io/docs/3.2/
 # Cheat sheet: https://gatling.io/docs/3.2/cheat-sheet/
 
-FROM eclipse-temurin:8-jdk
+FROM openjdk:19-jdk-alpine
 
 MAINTAINER phuctri1510@gmail.com
 
