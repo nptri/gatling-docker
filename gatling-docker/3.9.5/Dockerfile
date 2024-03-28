@@ -5,7 +5,7 @@
 
 FROM eclipse-temurin:8-jdk
 
-MAINTAINER Denis Vazhenin <denis.vazhenin@me.com>
+MAINTAINER phuctri1510@gmail.com
 
 # working directory for gatling
 WORKDIR /opt
