@@ -3,9 +3,9 @@
 # Documentation: https://gatling.io/docs/3.2/
 # Cheat sheet: https://gatling.io/docs/3.2/cheat-sheet/
 
-FROM openjdk:8-jdk-alpine
+FROM eclipse-temurin:8-jdk
 
-MAINTAINER Denis Vazhenin <denis.vazhenin@me.com>
+MAINTAINER phuctri1510@gmail.com
 
 # working directory for gatling
 WORKDIR /opt
