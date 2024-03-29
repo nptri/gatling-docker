@@ -30,9 +30,9 @@ All versions:
 
 Specific version:
 
-`docker pull phuctri1510/gatling:3.2.1`
+`docker pull phuctri1510/gatling:3.9.5`
 
-* [Alternatively] Build an image from Dockerfile: `docker build -t="phuctri1510/gatling" github.com/phuctri1510/gatling-docker`
+* [Alternatively] Build an image from Dockerfile: `docker build -t="phuctri1510/gatling" github.com/nptri/gatling-docker`
 
 # Usage
 
