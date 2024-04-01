@@ -1,6 +1,6 @@
 # Base Docker Image
 
-* [java:8-jdk-alpine](https://registry.hub.docker.com/_/java/)
+* [java:19-jdk-alpine](https://registry.hub.docker.com/_/java/)
 
 # Docker Tags
 
@@ -12,7 +12,14 @@
 * 3.2.0
 * 3.2.1 
 * 3.9.5 (stable)
-Note: Gatling versions from 2.1.0 to 2.2.5 are built with Scala 2.11, versions from 2.3.0 onwards are built with Scala 2.12.
+
+Note: 
+
+* Gatling versions from 2.1.0 to 2.2.5 are built with Scala 2.11
+
+* Gatling versions from 2.3.0 onwards are built with Scala 2.12
+
+* Gatling versions from 3.5.0 onwwards are built with Scala 2.13
 
 # Installation
 
@@ -51,8 +58,10 @@ docker run -it --rm -v /home/core/gatling/conf:/opt/gatling/conf \
 denvazh/gatling
 ```
 
+
+
 Use the `-e` switch to use JAVA_OPTS to pass parameters to gatling tests
 
 ```
-docker run -e JAVA_OPTS="-Dusers=10" -it --rm denvazh/gatling
+docker run -e JAVA_OPTS="-Dusers=10" -it --rm phuctri1510/gatling
 ```
