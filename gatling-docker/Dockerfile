@@ -11,7 +11,7 @@ MAINTAINER phuctri1510@gmail.com
 WORKDIR /opt
 
 # gating version
-ENV GATLING_VERSION 3.9.5
+ENV GATLING_VERSION 3.10.5
 
 # create directory for gatling install
 RUN mkdir -p gatling
