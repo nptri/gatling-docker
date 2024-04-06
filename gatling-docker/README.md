@@ -10,11 +10,8 @@
 * 3.1.2
 * 3.1.3
 * 3.2.0
-* 3.2.1 (latest)
-
-[![CircleCI](https://circleci.com/gh/denvazh/gatling/tree/master.svg?style=svg)](https://circleci.com/gh/denvazh/gatling/tree/master)
-[![](https://images.microbadger.com/badges/image/denvazh/gatling.svg)](http://microbadger.com/images/denvazh/gatling "Get your own image badge on microbadger.com")
-
+* 3.2.1 
+* 3.9.5 (stable)
 Note: Gatling versions from 2.1.0 to 2.2.5 are built with Scala 2.11, versions from 2.3.0 onwards are built with Scala 2.12.
 
 # Installation
@@ -25,24 +22,24 @@ Note: Gatling versions from 2.1.0 to 2.2.5 are built with Scala 2.11, versions f
 
 Latest version:
 
-`docker pull denvazh/gatling:latest`
+`docker pull phuctri1510/gatling:latest`
 
 All versions:
 
-`docker pull denvazh/gatling`
+`docker pull phuctri1510/gatling`
 
 Specific version:
 
-`docker pull denvazh/gatling:3.2.1`
+`docker pull phuctri1510/gatling:3.2.1`
 
-* [Alternatively] Build an image from Dockerfile: `docker build -t="denvazh/gatling" github.com/denvazh/gatling`
+* [Alternatively] Build an image from Dockerfile: `docker build -t="phuctri1510/gatling" github.com/phuctri1510/gatling-docker`
 
 # Usage
 
 Use image to run container
 
 ```
-docker run -it --rm denvazh/gatling
+docker run -it --rm phuctri1510/gatling
 ```
 
 Mount configuration and simulation files from the host machine and run gatling in interactive mode
